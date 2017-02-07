@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="275px" height="200px" xml:lang="fr"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+   <title>Cercle</title>
+   <line x1="75" y1="0" x2="200" y2="200" style="stroke:#D4D4D4;stroke-width:5" />
+   <line x1="200" y1="0" x2="200" y2="200" style="stroke:#D4D4D4;stroke-width:5" />
+   <line x1="200" y1="0" x2="75" y2="200" style="stroke:#D4D4D4;stroke-width:5" />
+   <line x1="75" y1="200" x2="75" y2="0" style="stroke:#D4D4D4;stroke-width:5" />
+</svg>

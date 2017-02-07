@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="959px" height="422px" viewbox="0 0 959 422" xml:lang="fr"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text x="0" y="50px">Generated using Pen on CodePen (http://codepen.io/netsi1964/full/PZJEQe/) which was made by Sten Hougaard, Jan. 2016,  @netsi1964</text>
+		<rect id="bg" x="0" y="0" width="959" height="422" style="fill:rgb(0,0,0);"></rect>
+	<g id="main">
+
+	<g id="polygons"><path d=" M 380 86 L 187 113  195 248  63 130  L 380 86  Z" stroke="rgba(255,191,169,.2)" stroke-width="1px" fill="rgba(255,191,169,.2)"></path><path d=" M 533 409 L 380 86  379 17  692 84  L 533 409  Z" stroke="rgba(255,255,255,.2)" stroke-width="1px" fill="rgba(255,255,255,.2)"></path><path d=" M 526 221 L 380 86  187 113  159 86  L 526 221  Z" stroke="rgba(124,137,45,.2)" stroke-width="1px" fill="rgba(124,137,45,.2)"></path><path d=" M 526 221 L 187 113  159 86  379 17  L 526 221  Z" stroke="rgba(124,137,45,.2)" stroke-width="1px" fill="rgba(124,137,45,.2)"></path><path d=" M 150 406 L 63 130  159 86  187 113  L 150 406  Z" stroke="rgba(255,191,169,.2)" stroke-width="1px" fill="rgba(255,191,169,.2)"></path><path d=" M 195 248 L 150 406  159 86  187 113  L 195 248  Z" stroke="rgba(255,133,151,.2)" stroke-width="1px" fill="rgba(255,133,151,.2)"></path><path d=" M 195 248 L 63 130  159 86  380 86  L 195 248  Z" stroke="rgba(255,133,151,.2)" stroke-width="1px" fill="rgba(255,133,151,.2)"></path><path d=" M 63 130 L 159 86  187 113  195 248  L 63 130  Z" stroke="rgba(200,214,134,.2)" stroke-width="1px" fill="rgba(200,214,134,.2)"></path><path d=" M 195 248 L 380 86  526 221  692 84  L 195 248  Z" stroke="rgba(124,137,45,.2)" stroke-width="1px" fill="rgba(124,137,45,.2)"></path><path d=" M 533 409 L 526 221  380 86  692 84  L 533 409  Z" stroke="rgba(200,214,134,.2)" stroke-width="1px" fill="rgba(200,214,134,.2)"></path><path d=" M 945 155 L 526 221  380 86  379 17  L 945 155  Z" stroke="rgba(255,133,151,.2)" stroke-width="1px" fill="rgba(255,133,151,.2)"></path></g>
+	<g id="points"></g>
+	</g>
+
+</svg>
