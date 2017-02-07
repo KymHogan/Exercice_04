@@ -5,7 +5,7 @@
 @couleur-lienMenu : #fff;
 @couleur-base       : #e3d47f;
 @couleur-complementaire : spin(@couleur-base, 180);
-// @couleur-contrast : contrast(@couleur-base);
+/* @couleur-contrast : contrast(@couleur-base);*/
 @couleur-contrast : contrast(@couleur-base);
 
 @couleur-1  : rgba(176, 95, 109, 0.7);
@@ -33,8 +33,13 @@ html{
 }
 
 body{
+  display : -webkit-box;
+  display : -ms-flexbox;
   display : flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: arial;
 }
 
@@ -43,8 +48,13 @@ header, footer {
     width: 960px;
 }
 header{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction:column;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
   padding:5px;
   
   img{
@@ -57,9 +67,16 @@ header{
         padding: 3px;
 
         li {
+            display:-webkit-box;
+            display:-ms-flexbox;
             display:flex;
-            flex-direction: row;
-            justify-content: flex-start;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
             border-bottom: 1px dotted @couleur-icone;
           &:first-child {
             border-top: 1px dotted @couleur-icone;
@@ -71,7 +88,10 @@ header{
               font-size: 150%;
               padding: 3px;
               color : @couleur-lienMenu;
-              flex:1;
+              -webkit-box-flex:1;
+                  -ms-flex:1;
+                      flex:1;
+              -webkit-transition: background-color 1s;
               transition : background-color 1s;
             }
             i{
@@ -83,28 +103,48 @@ header{
            a:hover{
             background-color: #aaa;
            } 
-          } // fin li
-        } // fin ul
-      } // fin nav
-    } // fin header  
+          } /* fin li*/
+        } /* fin ul*/
+      } /* fin nav*/
+    } /* fin header  */
 
 main {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
 
     section{
+      display:-webkit-box;
+      display:-ms-flexbox;
       display:flex;
-      flex-direction:column;
-      justify-content:center;
-      align-items:center;
+      -webkit-box-orient:vertical;
+      -webkit-box-direction:normal;
+          -ms-flex-direction:column;
+              flex-direction:column;
+      -webkit-box-pack:center;
+          -ms-flex-pack:center;
+              justify-content:center;
+      -webkit-box-align:center;
+          -ms-flex-align:center;
+              align-items:center;
       width: 100%;
       article{
+        display:-webkit-box;
+        display:-ms-flexbox;
         display:flex;
-        justify-content:center;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
         width:100%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height : @largeur_article;
-        //border: 1px solid #aaa;
+        /*border: 1px solid #aaa;*/
         font-size: @largeur_article;
       }
     }
@@ -133,9 +173,16 @@ main {
 
 .globale{
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content:center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
 }
 
 body > .globale:first-child{
@@ -148,10 +195,19 @@ body > .globale:last-child{
 
 footer{
   height: 70px;
+  display : -webkit-box;
+  display : -ms-flexbox;
   display : flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items : center;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align : center;
+      -ms-flex-align : center;
+          align-items : center;
 }
 
 footer div{
@@ -160,6 +216,7 @@ footer div{
 }
 footer div i{
    color : @couleur-icone ;
+   -webkit-transition: color 1s;
    transition : color 1s;
 }
 footer div i:hover{
