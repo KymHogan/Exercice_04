@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
 "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg height="175" width="125" xml:lang="fr"
+<svg width="75px" height="175px" xml:lang="fr"
 xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline points="0,40 40,80 80,80 80,120 120,160"
-  style="fill:transparent;stroke:black;stroke-width:4" />
+   <title>Path</title>
+   <text x="25px" y="150px" fill="#fff" stroke-width="3" font-size="150px">
+   		<tspan class="tp tp3" dx="-10px">!</tspan>
+   </text>
 </svg>
